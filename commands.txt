@@ -19,6 +19,11 @@ git branch branchName = Creates a new branch called branchName
 
 git checkout branchName = Switch to branch called branchName
 
+git checkout HEAD -- fileName.extension = Delete all changes made in the 
+file fileName.extension. We can do that when we want to make a commit 
+without changes made in fileName.extension or we want to ignore/discard 
+all changes in fileName.extension.
+
 --------------------------------------------------------------------------
 
 git reset = it can be --soft, --mixed or --hard

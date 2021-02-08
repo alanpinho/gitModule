@@ -6,3 +6,14 @@ of each commit.
 git branch = It shows you which branchs exist in the project and show you
 what branch you are.
 
+git reset = it can be --soft, --mixed or --hard
+
+git reset --soft = The code will be back before the commit, the changes
+and files will be available;
+
+git reset --mixed = The code will be back before the commit and we will
+have our modifications saved but untracked files must be added to git
+again (git add -a (or -fileName));
+
+git reset --hard = The code will be back before the commit and all changes
+after the commit will be deleted.

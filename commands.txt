@@ -3,8 +3,16 @@ git status = it shows you what files are modified and untracked files
 git log = it shows you the history of commits, their messages and the hash
 of each commit.
 
+--------------------------------------------------------------------------
+
 git branch = It shows you which branchs exist in the project and show you
 what branch you are.
+
+git branch branchName = Creates a new branch called branchName
+
+git checkout branchName = Switch to branch called branchName
+
+--------------------------------------------------------------------------
 
 git reset = it can be --soft, --mixed or --hard
 
@@ -17,3 +25,5 @@ again (git add -a (or -fileName));
 
 git reset --hard = The code will be back before the commit and all changes
 after the commit will be deleted.
+
+--------------------------------------------------------------------------

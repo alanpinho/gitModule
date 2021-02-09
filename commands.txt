@@ -39,3 +39,7 @@ git reset --hard = The code will be back before the commit and all changes
 after the commit will be deleted.
 
 --------------------------------------------------------------------------
+
+git revert --no-edit commitHash = This command let you back before the 
+changes made in commitHash. It creates a new commit for that, so you can
+back again to commitHash to make new changes and repair bugs.

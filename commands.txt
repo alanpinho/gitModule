@@ -52,3 +52,6 @@ back again to commitHash to make new changes and repair bugs.
 git pull origin main = Updates the local branch main with changes made on 
 the cloud. Usually the cloud repository/branch is called origin. You get 
 all changes made on the cloud repository.
+
+git push origin main = Send the local repository changes to the cloud repo.
+We should use a git pull before a git push.

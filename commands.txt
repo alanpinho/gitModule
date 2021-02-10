@@ -17,6 +17,9 @@ what branch you are.
 
 git branch branchName = Creates a new branch called branchName
 
+git branch branchName -D = Deletes the branch called branchName of local 
+repository
+
 git checkout branchName = Switch to branch called branchName
 
 git checkout HEAD -- fileName.extension = Delete all changes made in the 
@@ -43,3 +46,9 @@ after the commit will be deleted.
 git revert --no-edit commitHash = This command let you back before the 
 changes made in commitHash. It creates a new commit for that, so you can
 back again to commitHash to make new changes and repair bugs.
+
+--------------------------------------------------------------------------
+
+git pull origin main = Updates the local branch main with changes made on 
+the cloud. Usually the cloud repository/branch is called origin. You get 
+all changes made on the cloud repository.

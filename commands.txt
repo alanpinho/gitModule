@@ -3,6 +3,8 @@ git status = it shows you what files are modified and untracked files
 git log = it shows you the history of commits, their messages and the hash
 of each commit.
 
+git remote -v = Show the name of remote repository (usually called origin)
+
 git diff = Shows you the changes in the files.
 
 git diff --name-only = Shows you only the names of modified files.
